@@ -1,44 +1,3 @@
-cd ..
-cd openbox/
-ls
-vi rc.xml 
-vim rc.xml 
-cd .config
-ls
-cd tint2
-ls
-cd unleashed/
-ls
-cd ../..
-ls
-cd openbox/
-ls
-vi autostart 
-ps -ef | grep tint
-cd ..
-ls
-cd tint2
-ls
-cd unleashed/
-ls
-vi unleashed-statusbar.tint2rc 
-sudo pacman -S mpd
-ls
-mpd
-ls
-sudo pacman -S rofi
-cd ..
-ls
-cd ..
-ls
-mkdir rofi
-cd rofi
-ls
-vim config
-rofi &
-rofi combi &
-rofi -show window
- rofi-theme-selector
 rofi &
 rofi -show run
 ls
@@ -498,3 +457,44 @@ cd .config/i3
 ls
 cp config.nn config
 startx
+cd ~
+ls -a
+ls
+rm -rf Pictures/
+rm -rf Music/
+ls
+ls Videos/
+ls Public/
+ls Templates/
+rm -rf Videos/ Public/ Templates/
+ll
+ls -l
+ls Documents/
+ls Desktop/
+rm -rf Desktop/ Documents/
+ls
+ls Downloads/
+ls /
+sudo mkdir /workspace/dotex
+mkdir /workspace/dotx
+ls
+rm -rf Downloads/Tint2-Collections-master/
+cp -rp dot* /workspace/dotx/.
+cp -rp Downloads/dot* /workspace/dotx/.
+rm -rf Downloads/
+ll
+ls -l
+ls -la
+rm -rf .xsession-errors.old
+ls
+ls -a
+ls -la
+.local
+ls
+cd .local
+ls
+cd share
+ls
+cd ..
+ls
+exit
