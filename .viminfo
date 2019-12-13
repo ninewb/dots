@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1576253727,,"wq"
+|2,0,1576253855,,"wq"
 :q!
 |2,0,1576250011,,"q!"
 :.,.+1!:q!
@@ -89,40 +89,50 @@
 |3,0,36,0,1,0,1576232222,"#"
 
 # File marks:
-'0  65  75  /workspace/codebase/core/profile
-|4,48,65,75,1576253727,"/workspace/codebase/core/profile"
-'1  1  0  ~/.config/exit
-|4,49,1,0,1576250011,"~/.config/exit"
-'2  48  72  /workspace/codebase/core/profile
-|4,50,48,72,1576250002,"/workspace/codebase/core/profile"
+'0  65  69  /workspace/codebase/core/profile
+|4,48,65,69,1576253855,"/workspace/codebase/core/profile"
+'1  65  75  /workspace/codebase/core/profile
+|4,49,65,75,1576253727,"/workspace/codebase/core/profile"
+'2  1  0  ~/.config/exit
+|4,50,1,0,1576250011,"~/.config/exit"
 '3  48  72  /workspace/codebase/core/profile
 |4,51,48,72,1576250002,"/workspace/codebase/core/profile"
-'4  57  13  /workspace/codebase/core/profile
-|4,52,57,13,1576249954,"/workspace/codebase/core/profile"
-'5  57  13  /workspace/codebase/core/profile
-|4,53,57,13,1576249954,"/workspace/codebase/core/profile"
-'6  57  13  /workspace/codebase/core/profile
-|4,54,57,13,1576249954,"/workspace/codebase/core/profile"
+'4  48  72  /workspace/codebase/core/profile
+|4,52,48,72,1576250002,"/workspace/codebase/core/profile"
+'5  48  72  /workspace/codebase/core/profile
+|4,53,48,72,1576250002,"/workspace/codebase/core/profile"
+'6  48  72  /workspace/codebase/core/profile
+|4,54,48,72,1576250002,"/workspace/codebase/core/profile"
 '7  57  13  /workspace/codebase/core/profile
 |4,55,57,13,1576249954,"/workspace/codebase/core/profile"
-'8  4  0  ~/.bash_profile
-|4,56,4,0,1576249846,"~/.bash_profile"
-'9  9  3  ~/.bashrc
-|4,57,9,3,1576249822,"~/.bashrc"
+'8  57  13  /workspace/codebase/core/profile
+|4,56,57,13,1576249954,"/workspace/codebase/core/profile"
+'9  57  13  /workspace/codebase/core/profile
+|4,57,57,13,1576249954,"/workspace/codebase/core/profile"
 
 # Jumplist (newest first):
+-'  65  69  /workspace/codebase/core/profile
+|4,39,65,69,1576253855,"/workspace/codebase/core/profile"
 -'  65  75  /workspace/codebase/core/profile
 |4,39,65,75,1576253727,"/workspace/codebase/core/profile"
+-'  48  72  /workspace/codebase/core/profile
+|4,39,48,72,1576253619,"/workspace/codebase/core/profile"
 -'  48  72  /workspace/codebase/core/profile
 |4,39,48,72,1576253619,"/workspace/codebase/core/profile"
 -'  1  0  ~/.config/exit
 |4,39,1,0,1576250011,"~/.config/exit"
 -'  1  0  ~/.config/exit
 |4,39,1,0,1576250011,"~/.config/exit"
+-'  1  0  ~/.config/exit
+|4,39,1,0,1576250011,"~/.config/exit"
+-'  1  0  ~/.config/exit
+|4,39,1,0,1576250011,"~/.config/exit"
 -'  48  72  /workspace/codebase/core/profile
 |4,39,48,72,1576250002,"/workspace/codebase/core/profile"
 -'  48  72  /workspace/codebase/core/profile
 |4,39,48,72,1576250002,"/workspace/codebase/core/profile"
+-'  57  13  /workspace/codebase/core/profile
+|4,39,57,13,1576249986,"/workspace/codebase/core/profile"
 -'  57  13  /workspace/codebase/core/profile
 |4,39,57,13,1576249986,"/workspace/codebase/core/profile"
 -'  57  13  /workspace/codebase/core/profile
@@ -169,6 +179,70 @@
 |4,39,4,0,1576249846,"~/.bash_profile"
 -'  4  0  ~/.bash_profile
 |4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1576249846,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
+-'  6  0  ~/.bash_profile
+|4,39,6,0,1576249827,"~/.bash_profile"
 -'  6  0  ~/.bash_profile
 |4,39,6,0,1576249827,"~/.bash_profile"
 -'  6  0  ~/.bash_profile
@@ -237,88 +311,14 @@
 |4,39,9,3,1576249822,"~/.bashrc"
 -'  9  3  ~/.bashrc
 |4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576249783,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
 > /workspace/codebase/core/profile
-	*	1576253725	0
-	"	65	75
-	^	65	76
-	.	65	75
+	*	1576253854	0
+	"	65	69
+	^	65	70
+	.	65	69
 	+	5	0
 	+	55	16
 	+	56	19
@@ -333,7 +333,7 @@
 	+	33	0
 	+	32	0
 	+	31	0
-	+	65	75
+	+	65	69
 
 > ~/.config/exit
 	*	1576250010	0

@@ -1,16 +1,3 @@
-ls
-ll
-cd ..
-cd ..
-ls
-cd /etc/netctl
-ls
-sudo rm -rf wlp2s0-*
-ll
-ls -l
-sudo reboot
-sudo netctl
-sudo netctl start 125FAM
 sudo wifi-menu
 ifconfig
 ps -ef | grep tint
@@ -497,4 +484,17 @@ ls
 dots push
 ls
 pwd
+exit
+dotp
+ls
+cd ~
+dotp
+dot add -all
+dots add -all
+dots add --all
+dots commit -m test
+pwd
+dots push
+dotp
+alias
 exit
