@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1576243918,,"wq"
+|2,0,1576244384,,"wq"
 :ew
 |2,0,1576243056,,"ew"
 :wq!
@@ -50,32 +50,32 @@
 	€ýa::€kbq€kbwq!€kb!w
 |3,0,0,0,1,0,1576243047,"€ýa::€kbq€kbwq!€kb!w"
 ""1	LINE	0
-	.,.+1!:
-|3,1,1,1,1,0,1576243031,".,.+1!:"
+	/.themes
+|3,1,1,1,1,0,1576244348,"/.themes"
 "2	LINE	0
-	b1
-|3,0,2,1,1,0,1576243031,"b1"
+	dd# git credentials file
+|3,0,2,1,1,0,1576244322,"dd# git credentials file"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1576243030,""
+	.dots
+|3,0,3,1,1,0,1576244260,".dots"
 "4	LINE	0
-	wq
-|3,0,4,1,1,0,1576243030,"wq"
+	.mozilla
+|3,0,4,1,1,0,1576244260,".mozilla"
 "5	LINE	0
-	q!
-|3,0,5,1,1,0,1576243030,"q!"
+	# misc
+|3,0,5,1,1,0,1576244259,"# misc"
 "6	LINE	0
-	.,.+1!
-|3,0,6,1,1,0,1576243029,".,.+1!"
+	
+|3,0,6,1,1,0,1576244183,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1576233874,""
+	# emacs backups
+|3,0,7,1,1,0,1576244181,"# emacs backups"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1576233873,""
+	.,.+1!:
+|3,0,8,1,1,0,1576243031,".,.+1!:"
 "9	LINE	0
-	# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-|3,0,9,1,1,0,1576233873,"# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop"
+	b1
+|3,0,9,1,1,0,1576243031,"b1"
 "a	LINE	0
 	set $ws1  "1: ï‰¨ "
 |3,0,10,1,1,0,1576232987,"set $ws1  \"1: ï‰¨ \""
@@ -87,38 +87,86 @@
 |3,0,36,0,1,0,1576232222,"#"
 
 # File marks:
-'0  11  0  ~/.gitignore
-|4,48,11,0,1576243918,"~/.gitignore"
-'1  3  1  ~/.gitignore
-|4,49,3,1,1576243366,"~/.gitignore"
-'2  3  1  ~/.gitignore
-|4,50,3,1,1576243366,"~/.gitignore"
-'3  12  0  ~/.bash_profile
-|4,51,12,0,1576243065,"~/.bash_profile"
-'4  13  73  ~/.bash_profile
-|4,52,13,73,1576242720,"~/.bash_profile"
-'5  12  73  ~/.bash_profile
-|4,53,12,73,1576242720,"~/.bash_profile"
-'6  8  0  ~/.gitignore
-|4,54,8,0,1576240675,"~/.gitignore"
-'7  5  0  ~/.gitignore
-|4,55,5,0,1576240675,"~/.gitignore"
-'8  8  0  ~/.gitignore
-|4,56,8,0,1576240675,"~/.gitignore"
-'9  5  0  ~/.gitignore
-|4,57,5,0,1576240675,"~/.gitignore"
+'0  8  12  ~/.gitignore
+|4,48,8,12,1576244384,"~/.gitignore"
+'1  9  33  ~/.gitconfig
+|4,49,9,33,1576244151,"~/.gitconfig"
+'2  14  0  ~/.gitignore
+|4,50,14,0,1576243918,"~/.gitignore"
+'3  11  0  ~/.gitignore
+|4,51,11,0,1576243918,"~/.gitignore"
+'4  1  1  ~/.gitignore
+|4,52,1,1,1576243366,"~/.gitignore"
+'5  1  1  ~/.gitignore
+|4,53,1,1,1576243366,"~/.gitignore"
+'6  3  1  ~/.gitignore
+|4,54,3,1,1576243366,"~/.gitignore"
+'7  3  1  ~/.gitignore
+|4,55,3,1,1576243366,"~/.gitignore"
+'8  12  0  ~/.bash_profile
+|4,56,12,0,1576243065,"~/.bash_profile"
+'9  13  73  ~/.bash_profile
+|4,57,13,73,1576242720,"~/.bash_profile"
 
 # Jumplist (newest first):
+-'  8  12  ~/.gitignore
+|4,39,8,12,1576244384,"~/.gitignore"
+-'  14  0  ~/.gitignore
+|4,39,14,0,1576244177,"~/.gitignore"
+-'  9  33  ~/.gitconfig
+|4,39,9,33,1576244151,"~/.gitconfig"
+-'  9  33  ~/.gitconfig
+|4,39,9,33,1576244151,"~/.gitconfig"
+-'  11  16  ~/.gitconfig
+|4,39,11,16,1576244038,"~/.gitconfig"
+-'  11  16  ~/.gitconfig
+|4,39,11,16,1576244038,"~/.gitconfig"
 -'  11  0  ~/.gitignore
 |4,39,11,0,1576243918,"~/.gitignore"
+-'  11  0  ~/.gitignore
+|4,39,11,0,1576243918,"~/.gitignore"
+-'  1  1  ~/.gitignore
+|4,39,1,1,1576243858,"~/.gitignore"
 -'  3  1  ~/.gitignore
 |4,39,3,1,1576243858,"~/.gitignore"
+-'  3  1  ~/.gitignore
+|4,39,3,1,1576243858,"~/.gitignore"
+-'  3  1  ~/.gitignore
+|4,39,3,1,1576243366,"~/.gitignore"
 -'  3  1  ~/.gitignore
 |4,39,3,1,1576243366,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1576243193,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1576243193,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1576243193,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1576243193,"~/.gitignore"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
+-'  12  0  ~/.bash_profile
+|4,39,12,0,1576243065,"~/.bash_profile"
 -'  12  0  ~/.bash_profile
 |4,39,12,0,1576243065,"~/.bash_profile"
 -'  12  0  ~/.bash_profile
@@ -135,6 +183,54 @@
 |4,39,13,73,1576243003,"~/.bash_profile"
 -'  13  73  ~/.bash_profile
 |4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  13  73  ~/.bash_profile
+|4,39,13,73,1576243003,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
+-'  12  73  ~/.bash_profile
+|4,39,12,73,1576242720,"~/.bash_profile"
 -'  12  73  ~/.bash_profile
 |4,39,12,73,1576242720,"~/.bash_profile"
 -'  12  73  ~/.bash_profile
@@ -159,172 +255,101 @@
 |4,39,8,0,1576242677,"~/.bash_profile"
 -'  8  0  ~/.bash_profile
 |4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  8  0  ~/.bash_profile
+|4,39,8,0,1576242677,"~/.bash_profile"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1576240675,"~/.gitignore"
 -'  5  0  ~/.gitignore
 |4,39,5,0,1576240675,"~/.gitignore"
 -'  5  0  ~/.gitignore
 |4,39,5,0,1576240675,"~/.gitignore"
--'  5  0  ~/.gitignore
-|4,39,5,0,1576240675,"~/.gitignore"
--'  5  0  ~/.gitignore
-|4,39,5,0,1576240675,"~/.gitignore"
--'  5  0  ~/.gitignore
-|4,39,5,0,1576240675,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1576240269,"~/.gitignore"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  75  0  ~/.config/i3/config
-|4,39,75,0,1576234419,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
--'  76  20  ~/.config/i3/config
-|4,39,76,20,1576234400,"~/.config/i3/config"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1576243917	0
-	"	11	0
-	^	11	0
-	.	10	5
-	+	6	8
-	+	5	0
-	+	6	9
+	*	1576244382	0
+	"	8	12
+	^	8	13
+	.	8	12
+	+	7	8
 	+	7	0
+	+	7	9
+	+	13	0
+	+	14	0
+	+	1	15
+	+	1	1
+	+	14	5
+	+	1	0
+	+	2	5
+	+	5	2
+	+	7	5
+	+	9	7
+	+	14	0
+	+	10	7
+	+	10	0
+	+	9	0
+	+	7	0
+	+	11	0
+	+	7	0
+	+	10	0
+	+	8	12
+
+> ~/.gitconfig
+	*	1576244150	0
+	"	9	33
+	^	9	34
+	.	10	0
+	+	11	16
+	+	4	7
+	+	7	19
 	+	8	0
-	+	2	15
-	+	3	1
-	+	10	5
+	+	10	0
 
 > ~/.bash_profile
 	*	1576243024	0
@@ -409,13 +434,6 @@
 	^	1	66
 	.	1	65
 	+	1	65
-
-> ~/.gitconfig
-	*	1576149529	0
-	"	9	16
-	^	9	17
-	.	9	16
-	+	9	16
 
 > ~/.config/tint2/meraxes/meraxes.tint2rc
 	*	1576099927	0

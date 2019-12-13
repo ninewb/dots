@@ -1,11 +1,14 @@
-
-# emacs backups
 *~
+*.bak
+*.tmp
+*.pyc
+*.o
 
-# git credentials file
+/.dots
+/.local/share
+/.mozilla
+/.thumbnails
+
 .gitcreds
 
-# misc
-.mozilla
-.dots
 
