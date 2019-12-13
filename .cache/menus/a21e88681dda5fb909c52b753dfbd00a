@@ -1,0 +1,379 @@
+1.2
+lxde-applications.menu
+10
+D/home/ninewb/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/ninewb/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/home/ninewb/.config/menus/applications-merged
+F/home/ninewb/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+MATE;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+5
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+A GTK+ only archive manager
+xarchiver
+
+5
+Archive manager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,7-zip,7z,7za,7zip,7zr,apk,ar,arj,bunzip2,bz2,bzip2,cbz,compress,cpio,deb,epub,gtar,gunzip,gz,gzip,jar,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,oxt,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+-nitrogen.desktop
+nitrogen
+Browse and set desktop backgrounds
+nitrogen
+
+5
+Wallpaper Setter
+nitrogen
+0
+0
+
+
+Utility;GTK;DesktopSettings
+background,desktop
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+0
+-bssh.desktop
+Avahi SSH Server Browser
+Browse for Zeroconf-enabled SSH Servers
+network-wired
+
+5
+
+/usr/bin/bssh
+0
+0
+
+
+GNOME;Network
+
+-bvnc.desktop
+Avahi VNC Server Browser
+Browse for Zeroconf-enabled VNC Servers
+network-wired
+
+5
+
+/usr/bin/bvnc
+0
+0
+
+
+GNOME;Network
+
+-firefox.desktop
+Firefox
+Browse the World Wide Web
+firefox
+
+5
+Web Browser
+/usr/lib/firefox/firefox %u
+2
+0
+
+
+Network;WebBrowser
+Internet,WWW,Browser,Web,Explorer
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+0
+-geany.desktop
+Geany
+A fast and lightweight IDE using GTK+
+geany
+
+5
+Integrated Development Environment
+geany %F
+2
+0
+
+
+GTK;Development;IDE
+Text,Editor
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-qv4l2.desktop
+Qt V4L2 test Utility
+Allow testing Video4Linux devices
+qv4l2
+
+5
+
+qv4l2
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+-qvidcap.desktop
+Qt V4L2 video capture utility
+Viewer for video capture
+qvidcap
+
+5
+
+qvidcap
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-avahi-discover.desktop
+Avahi Zeroconf Browser
+Browse for Zeroconf services available on your network
+network-wired
+
+5
+
+/usr/bin/avahi-discover
+0
+0
+
+
+GNOME;System
+
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+5
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-gtk-lshw.desktop
+LSHW
+HardWare LiSter
+/usr/share/lshw/artwork/logo.svg
+
+5
+
+/usr/sbin/gtk-lshw
+0
+0
+
+
+Application;System;X-Red-Hat-Base;X-Fedora
+
+-termite.desktop
+Termite
+Use the command line
+utilities-terminal
+
+5
+
+termite
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+-tint2.desktop
+Tint2
+Lightweight panel
+tint2
+
+5
+Panel
+tint2
+0
+0
+
+
+System
+
+-uxterm.desktop
+UXTerm
+xterm wrapper for Unicode environments
+xterm-color_48x48
+
+5
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color_48x48
+
+5
+
+xterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-conky.desktop
+conky
+
+conky-logomark-violet
+
+5
+
+conky --daemonize --pause=1
+0
+0
+
+
+System;Monitor
+
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
+-lxappearance.desktop
+Customize Look and Feel
+Customizes look and feel of your desktop and applications
+preferences-desktop-theme
+
+5
+Customize Look and Feel
+lxappearance
+2
+-47
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+windows,preferences,settings,theme,style,appearance
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+5
+
+pcmanfm --desktop-pref
+2
+-47
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+5
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+
+-libfm-pref-apps.desktop
+Preferred Applications
+Select applications called on click on Web link or e-mail address
+preferences-desktop
+
+5
+
+libfm-pref-apps
+2
+1
+
+
+Settings;DesktopSettings;X-LXDE-Settings;GTK
+
+-tint2conf.desktop
+Tint2 Settings
+Tool to configure the tint2 panel
+tint2conf
+
+5
+Panel configurator
+tint2conf
+0
+0
+
+
+Settings;DesktopSettings
+
+
+

@@ -1,0 +1,37 @@
+/usr/bin/env: 'python2': No such file or directory
+tint2: Using glib slice allocator (default). Run tint2 with environment variable G_SLICE=always-malloc in case of strange behavior or crashes
+tint2: xRandr: Found crtc's: 3
+[1;34mtint2: xRandr: Linking output eDP-1 with crtc 0, resolution 1366x768, DPI 125[0m
+tint2: xRandr: crtc 1 seems disabled
+tint2: xRandr: crtc 2 seems disabled
+tint2: Using glib slice allocator (default). Run tint2 with environment variable G_SLICE=always-malloc in case of strange behavior or crashes
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/ninewb/.config/tint2/unleashed/unleashed-statusbar.tint2rc
+tint2: xRandr: Found crtc's: 3
+[1;34mtint2: xRandr: Linking output eDP-1 with crtc 0, resolution 1366x768, DPI 125[0m
+tint2: xRandr: crtc 1 seems disabled
+tint2: xRandr: crtc 2 seems disabled
+tint2: Using glib slice allocator (default). Run tint2 with environment variable G_SLICE=always-malloc in case of strange behavior or crashes
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/ninewb/.config/tint2/unleashed/unleashed-taskbar.tint2rc
+tint2: real transparency off.... depth: 24
+tint2: real transparency off.... depth: 24
+tint2: xRandr: Found crtc's: 3
+[1;34mtint2: xRandr: Linking output eDP-1 with crtc 0, resolution 1366x768, DPI 125[0m
+tint2: xRandr: crtc 1 seems disabled
+tint2: xRandr: crtc 2 seems disabled
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/ninewb/.config/tint2/unleashed/unleashed-workspace.tint2rc
+tint2: real transparency off.... depth: 24
+tint2: panel items: tTint2: panel items: t
+Fint2: panel items: EEE:T
+
+tint2: nb monitors 1t, nb monitors used int2: nb monitors 1t1, nb desktops int2: nb monitors , nb monitors used 411
+, nb monitors used , nb desktops 14[1;34mtint2: panel , nb desktops 
+14 uses scale 
+[1;34mtint2: panel 11 [0m
+[1;34mtint2: panel  uses scale 1 uses scale 11 [0m
+ [0m
+tint2: Kernel uevent interface initialized...
+tint2: Kernel uevent interface initialized...
+tint2: Kernel uevent interface initialized...

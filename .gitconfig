@@ -1,0 +1,9 @@
+[user]
+	name = ninewb
+	email = nick@noteshade.com
+
+[credential]
+	helper = store --file ~/.gitcreds
+
+[push]
+	default = simple

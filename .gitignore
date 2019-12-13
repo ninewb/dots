@@ -1,0 +1,8 @@
+
+# emacs backups
+*~
+
+# git credentials file
+.gitcreds
+
+
