@@ -1,37 +1,3 @@
-rofi &
-rofi -show run
-ls
-ifconfig
-sudo wifi-menu
-ping google.com
-ifconfig
-ping google.com
-sudo wifi-menu
-ifconfig
-sudo systemctl enable 125FAM.service
-sudo systemctl enable netctl-auto@wlp2s0.service
-sudo netctl-auto enable 125FAM
-sudo netctl-auto switch-to wlp2s0-125FAM
-sudo netctl-auto switch-to 125FAM
-sudo wifi-menu
-sudo wifi-menu
-sudo netctl-auto switch-to 125FAM
-sudo netctl-auto enable 125FAM
-sudo wifi-menu
-journalctl -xe
-ifconfig
-ping google.com
-sudo wifi-menu
-netctl
-netctl start 125FAM
-sudo systemctl stop dhcpcd
-sudo systemctl disable dhcpcd
-sudo netctl start 125FAM
-sudo journalctl -xe
-ls /var/lib/dhcpcd
-cd /etc/systemd/system
-ls
-cd multi-user.target.wants/
 ls
 ll
 cd ..
@@ -497,4 +463,38 @@ cd share
 ls
 cd ..
 ls
+exit
+cd ..
+ls
+vi .bashrc
+cd /workspace/
+ls
+cd codebase/
+ls
+cd core
+ls
+vi profile
+vim profile
+cd ~
+ls
+cd .bashrc
+vi .bashrc
+exit
+ls
+cat .bash_profile
+cat ~/.bash_profile
+exit
+ls
+ll
+la
+vi exit
+exit
+la
+cd ~
+ls
+la
+ls
+dots push
+ls
+pwd
 exit
