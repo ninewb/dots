@@ -1,8 +1,9 @@
 *~
 *.bak
-*.tmp
-*.pyc
+*.log
 *.o
+*.pyc
+*.tmp
 
 /.dots
 /.local/share
