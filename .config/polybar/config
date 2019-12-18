@@ -13,10 +13,13 @@
   background = ${xrdb:background}
 
   black = ${xrdb:color0}
-  green = ${xrdb:color2}
   red = ${xrdb:color1}
+  green = ${xrdb:color2}
+  yellow = ${xrdb:color3}
   blue = ${xrdb:color4}
-  
+  magenta = ${xrdb:color5}
+  cyan = ${xrdb:color6}
+  white = ${xrdb:color7}
 
 [bar/base]
   monitor = "eDP1"
@@ -34,8 +37,8 @@
   background = ${colors.background}
   foreground = ${colors.foreground}
 
-  border-size = 3
-  border-color = ${colors.green}
+  border-size = 1
+  border-color = ${colors.cyan}
 
   line-size = 0
   line-color = #BE06C6
@@ -49,34 +52,76 @@
   font-0 = "Operator Mono:size = 13:weight=medium;3"
   font-1 = "Font Awesome 5 Free:size=13:weight=bold;4"
 
-[module/i3]
-strip-wsnumbers = true
-type = internal/i3
-format = <label-state> <label-mode>
-
-label-focused = %index%
-label-focused-foreground = #cc6666
-label-focused-background = #1d1f21
-label-focused-underline = #fba922
-label-focused-padding = 1
-
-label-unfocused = %index%
-label-unfocused-padding = 1
-
-label-visible = %index%
-label-visible-underline = #555555
-label-visible-padding = 1
-
-label-urgent = %index%
-label-urgent-foreground = #000000
-label-urgent-background = #bd2c40
-label-urgent-padding = 1
-
 [bar/top]
   inherit = bar/base
   bottom = false
   offset-x = 10%
-
-  modules-left = 
+  modules-left = wifi
   modules-center = i3
-  modeules-right =
+  modules-right = 
+
+[bar/bottom]
+
+[module/i3]
+  type = internal/i3
+  format = <label-state> <label-mode>
+  index-sort = true
+  wrapping-scroll = false
+  enable-click = true
+
+label-focused = %icon%
+label-focused-foreground = ${colors.green}
+label-focused-background = ${colors.background}
+label-focused-underline = ${colors.background}
+label-focused-padding = 1
+
+label-unfocused = %index%
+label-unfocused-foreground = ${colors.black}
+label-unfocused-background = ${colors.background}
+label-unfocused-padding = 1
+
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+label-urgent-foreground = ${colors.red}
+label-urgent-background = ${colors.background}
+label-urgent-padding = 1
+
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+
+[module/wifi]
+  type = internal/network
+  interface = wlp2s0
+  ping-interval = 10
+  unknown-as-up = true
+
+  format-connected-prefix = 
+  format-connected-prefix-padding-left = 3
+  format-connected-foreground = ${colors.background}
+  format-connected-background = ${colors.green}
+  label-connected = %essid%
+  label-connected-padding-left = 2
+  label-connected-padding-right = 3
+
+  format-packetloss-prefix = 
+  format-packetloss-prefix-padding-left = 3
+  format-packetloss-foreground = ${colors.background}
+  format-packetloss-background = ${colors.yellow}
+  label-packetloss = packetloss
+  label-packetloss-padding-left = 2
+  label-packetloss-padding-right = 3
+
+  format-disconnected-prefix =
+  format-disconnected-prefix-padding-left = 3
+  format-disconnected-foreground = ${colors.background}
+  format-disconnected-background = ${colors.red}
+  label-disconnected = disconnected
+  label-disconnected-padding-left = 2
+  label-disconnected-padding-right = 3
+
