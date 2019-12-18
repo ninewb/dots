@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1576690378,,"wq"
+|2,0,1576690520,,"wq"
 :q!
 |2,0,1576678963,,"q!"
 :.,.+1!:q!
@@ -93,38 +93,56 @@
 |3,0,36,0,1,0,1576677893,"#"
 
 # File marks:
-'0  1  16  ~/.Xresources
-|4,48,1,16,1576690378,"~/.Xresources"
-'1  8  19  ~/.art/color
-|4,49,8,19,1576679726,"~/.art/color"
-'2  12  15  ~/.art/color
-|4,50,12,15,1576679261,"~/.art/color"
+'0  8  6  ~/.gitignore
+|4,48,8,6,1576690520,"~/.gitignore"
+'1  1  16  ~/.Xresources
+|4,49,1,16,1576690378,"~/.Xresources"
+'2  8  19  ~/.art/color
+|4,50,8,19,1576679726,"~/.art/color"
 '3  12  15  ~/.art/color
 |4,51,12,15,1576679261,"~/.art/color"
-'4  16  15  ~/.art/color
-|4,52,16,15,1576679137,"~/.art/color"
+'4  12  15  ~/.art/color
+|4,52,12,15,1576679261,"~/.art/color"
 '5  16  15  ~/.art/color
 |4,53,16,15,1576679137,"~/.art/color"
 '6  16  15  ~/.art/color
 |4,54,16,15,1576679137,"~/.art/color"
 '7  16  15  ~/.art/color
 |4,55,16,15,1576679137,"~/.art/color"
-'8  1  0  ~/README.md
-|4,56,1,0,1576678963,"~/README.md"
-'9  2  36  ~/.art/color
-|4,57,2,36,1576678927,"~/.art/color"
+'8  16  15  ~/.art/color
+|4,56,16,15,1576679137,"~/.art/color"
+'9  1  0  ~/README.md
+|4,57,1,0,1576678963,"~/README.md"
 
 # Jumplist (newest first):
+-'  8  6  ~/.gitignore
+|4,39,8,6,1576690520,"~/.gitignore"
+-'  9  5  ~/.gitignore
+|4,39,9,5,1576690507,"~/.gitignore"
+-'  1  16  ~/.Xresources
+|4,39,1,16,1576690378,"~/.Xresources"
 -'  1  16  ~/.Xresources
 |4,39,1,16,1576690378,"~/.Xresources"
 -'  8  19  ~/.art/color
 |4,39,8,19,1576679726,"~/.art/color"
 -'  8  19  ~/.art/color
 |4,39,8,19,1576679726,"~/.art/color"
+-'  8  19  ~/.art/color
+|4,39,8,19,1576679726,"~/.art/color"
+-'  8  19  ~/.art/color
+|4,39,8,19,1576679726,"~/.art/color"
 -'  12  15  ~/.art/color
 |4,39,12,15,1576679292,"~/.art/color"
 -'  12  15  ~/.art/color
 |4,39,12,15,1576679292,"~/.art/color"
+-'  12  15  ~/.art/color
+|4,39,12,15,1576679292,"~/.art/color"
+-'  12  15  ~/.art/color
+|4,39,12,15,1576679292,"~/.art/color"
+-'  12  15  ~/.art/color
+|4,39,12,15,1576679261,"~/.art/color"
+-'  12  15  ~/.art/color
+|4,39,12,15,1576679261,"~/.art/color"
 -'  12  15  ~/.art/color
 |4,39,12,15,1576679261,"~/.art/color"
 -'  12  15  ~/.art/color
@@ -137,6 +155,18 @@
 |4,39,16,15,1576679164,"~/.art/color"
 -'  16  15  ~/.art/color
 |4,39,16,15,1576679164,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679164,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679164,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679164,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679164,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679137,"~/.art/color"
+-'  16  15  ~/.art/color
+|4,39,16,15,1576679137,"~/.art/color"
 -'  16  15  ~/.art/color
 |4,39,16,15,1576679137,"~/.art/color"
 -'  16  15  ~/.art/color
@@ -153,6 +183,50 @@
 |4,39,2,36,1576678998,"~/.art/color"
 -'  2  36  ~/.art/color
 |4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678998,"~/.art/color"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1576678963,"~/README.md"
 -'  1  0  ~/README.md
 |4,39,1,0,1576678963,"~/README.md"
 -'  1  0  ~/README.md
@@ -193,6 +267,14 @@
 |4,39,2,36,1576678927,"~/.art/color"
 -'  2  36  ~/.art/color
 |4,39,2,36,1576678927,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678927,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678927,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678927,"~/.art/color"
+-'  2  36  ~/.art/color
+|4,39,2,36,1576678927,"~/.art/color"
 -'  6  19  ~/.art/color
 |4,39,6,19,1576678505,"~/.art/color"
 -'  6  19  ~/.art/color
@@ -214,109 +296,56 @@
 -'  6  19  ~/.art/color
 |4,39,6,19,1576678505,"~/.art/color"
 -'  6  19  ~/.art/color
-|4,39,6,19,1576678418,"~/.art/color"
+|4,39,6,19,1576678505,"~/.art/color"
 -'  6  19  ~/.art/color
-|4,39,6,19,1576678418,"~/.art/color"
+|4,39,6,19,1576678505,"~/.art/color"
 -'  6  19  ~/.art/color
-|4,39,6,19,1576678418,"~/.art/color"
+|4,39,6,19,1576678505,"~/.art/color"
 -'  6  19  ~/.art/color
-|4,39,6,19,1576678418,"~/.art/color"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
--'  42  0  ~/.config/polybar/config
-|4,39,42,0,1576678354,"~/.config/polybar/config"
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
+-'  6  19  ~/.art/color
+|4,39,6,19,1576678505,"~/.art/color"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1576690518	0
+	"	8	6
+	^	8	7
+	.	8	6
+	+	7	8
+	+	7	0
+	+	7	9
+	+	14	0
+	+	15	0
+	+	1	15
+	+	1	1
+	+	15	5
+	+	1	0
+	+	2	5
+	+	5	2
+	+	7	5
+	+	10	7
+	+	15	0
+	+	11	7
+	+	11	0
+	+	10	0
+	+	7	0
+	+	12	0
+	+	7	0
+	+	11	0
+	+	9	12
+	+	8	6
 
 > ~/.Xresources
 	*	1576690376	0
@@ -640,34 +669,6 @@
 > /workspace/dotx/dots/.profile
 	*	1576247547	0
 	"	1	0
-
-> ~/.gitignore
-	*	1576244382	0
-	"	8	12
-	^	8	13
-	.	8	12
-	+	7	8
-	+	7	0
-	+	7	9
-	+	13	0
-	+	14	0
-	+	1	15
-	+	1	1
-	+	14	5
-	+	1	0
-	+	2	5
-	+	5	2
-	+	7	5
-	+	9	7
-	+	14	0
-	+	10	7
-	+	10	0
-	+	9	0
-	+	7	0
-	+	11	0
-	+	7	0
-	+	10	0
-	+	8	12
 
 > ~/.gitconfig
 	*	1576244150	0
