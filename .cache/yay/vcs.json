@@ -1,0 +1,11 @@
+{
+	"polybar-git": {
+		"github.com/polybar/polybar.git": {
+			"protocols": [
+				"https"
+			],
+			"branch": "HEAD",
+			"sha": "bc560952e03ab558c3befc8147850c11d730a678"
+		}
+	}
+}

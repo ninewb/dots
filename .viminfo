@@ -11,15 +11,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/dmenu
+~MSle0~/cpu
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1576253855,,"wq"
+|2,0,1576617963,,"wq"
 :q!
-|2,0,1576250011,,"q!"
+|2,0,1576617100,,"q!"
 :.,.+1!:q!
-|2,0,1576249771,,".,.+1!:q!"
+|2,0,1576613858,,".,.+1!:q!"
+:.,.+1!:
+|2,0,1576613828,,".,.+1!:"
+:.,.+1!:"
+|2,0,1576613013,,".,.+1!:\""
 :ew
 |2,0,1576243056,,"ew"
 :wq!
@@ -28,10 +32,10 @@
 |2,0,1576234417,,".,.+1!"
 :b1
 |2,0,1576232544,,"b1"
-:.,.+1!:
-|2,0,1576097875,,".,.+1!:"
 
 # Search String History (newest to oldest):
+?/cpu
+|2,1,1576617107,47,"cpu"
 ?/dmenu
 |2,1,1576234396,47,"dmenu"
 ?/focus_child
@@ -89,230 +93,338 @@
 |3,0,36,0,1,0,1576232222,"#"
 
 # File marks:
-'0  65  69  /workspace/codebase/core/profile
-|4,48,65,69,1576253855,"/workspace/codebase/core/profile"
-'1  65  75  /workspace/codebase/core/profile
-|4,49,65,75,1576253727,"/workspace/codebase/core/profile"
-'2  1  0  ~/.config/exit
-|4,50,1,0,1576250011,"~/.config/exit"
-'3  48  72  /workspace/codebase/core/profile
-|4,51,48,72,1576250002,"/workspace/codebase/core/profile"
-'4  48  72  /workspace/codebase/core/profile
-|4,52,48,72,1576250002,"/workspace/codebase/core/profile"
-'5  48  72  /workspace/codebase/core/profile
-|4,53,48,72,1576250002,"/workspace/codebase/core/profile"
-'6  48  72  /workspace/codebase/core/profile
-|4,54,48,72,1576250002,"/workspace/codebase/core/profile"
-'7  57  13  /workspace/codebase/core/profile
-|4,55,57,13,1576249954,"/workspace/codebase/core/profile"
-'8  57  13  /workspace/codebase/core/profile
-|4,56,57,13,1576249954,"/workspace/codebase/core/profile"
-'9  57  13  /workspace/codebase/core/profile
-|4,57,57,13,1576249954,"/workspace/codebase/core/profile"
+'0  98  0  ~/.config/polybar/config
+|4,48,98,0,1576617963,"~/.config/polybar/config"
+'1  31  26  ~/.config/polybar/config
+|4,49,31,26,1576617769,"~/.config/polybar/config"
+'2  31  26  ~/.config/polybar/config
+|4,50,31,26,1576617769,"~/.config/polybar/config"
+'3  85  13  ~/.config/polybar/config
+|4,51,85,13,1576617599,"~/.config/polybar/config"
+'4  85  13  ~/.config/polybar/config
+|4,52,85,13,1576617599,"~/.config/polybar/config"
+'5  85  13  ~/.config/polybar/config
+|4,53,85,13,1576617599,"~/.config/polybar/config"
+'6  85  13  ~/.config/polybar/config
+|4,54,85,13,1576617599,"~/.config/polybar/config"
+'7  173  0  ~/.config/i3/config
+|4,55,173,0,1576617100,"~/.config/i3/config"
+'8  33  0  ~/.config/polybar/launch
+|4,56,33,0,1576615780,"~/.config/polybar/launch"
+'9  1  0  ~/.config/polybar/launch.sh
+|4,57,1,0,1576615762,"~/.config/polybar/launch.sh"
 
 # Jumplist (newest first):
--'  65  69  /workspace/codebase/core/profile
-|4,39,65,69,1576253855,"/workspace/codebase/core/profile"
--'  65  75  /workspace/codebase/core/profile
-|4,39,65,75,1576253727,"/workspace/codebase/core/profile"
--'  48  72  /workspace/codebase/core/profile
-|4,39,48,72,1576253619,"/workspace/codebase/core/profile"
--'  48  72  /workspace/codebase/core/profile
-|4,39,48,72,1576253619,"/workspace/codebase/core/profile"
--'  1  0  ~/.config/exit
-|4,39,1,0,1576250011,"~/.config/exit"
--'  1  0  ~/.config/exit
-|4,39,1,0,1576250011,"~/.config/exit"
--'  1  0  ~/.config/exit
-|4,39,1,0,1576250011,"~/.config/exit"
--'  1  0  ~/.config/exit
-|4,39,1,0,1576250011,"~/.config/exit"
--'  48  72  /workspace/codebase/core/profile
-|4,39,48,72,1576250002,"/workspace/codebase/core/profile"
--'  48  72  /workspace/codebase/core/profile
-|4,39,48,72,1576250002,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249986,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249986,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249986,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249986,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249954,"/workspace/codebase/core/profile"
--'  57  13  /workspace/codebase/core/profile
-|4,39,57,13,1576249954,"/workspace/codebase/core/profile"
--'  48  88  /workspace/codebase/core/profile
-|4,39,48,88,1576249853,"/workspace/codebase/core/profile"
--'  48  88  /workspace/codebase/core/profile
-|4,39,48,88,1576249853,"/workspace/codebase/core/profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  4  0  ~/.bash_profile
-|4,39,4,0,1576249846,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,1576249827,"~/.bash_profile"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
--'  9  3  ~/.bashrc
-|4,39,9,3,1576249822,"~/.bashrc"
+-'  98  0  ~/.config/polybar/config
+|4,39,98,0,1576617963,"~/.config/polybar/config"
+-'  31  26  ~/.config/polybar/config
+|4,39,31,26,1576617825,"~/.config/polybar/config"
+-'  31  26  ~/.config/polybar/config
+|4,39,31,26,1576617769,"~/.config/polybar/config"
+-'  85  13  ~/.config/polybar/config
+|4,39,85,13,1576617633,"~/.config/polybar/config"
+-'  85  13  ~/.config/polybar/config
+|4,39,85,13,1576617633,"~/.config/polybar/config"
+-'  85  13  ~/.config/polybar/config
+|4,39,85,13,1576617599,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576617107,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576617107,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576617107,"~/.config/polybar/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  173  0  ~/.config/i3/config
+|4,39,173,0,1576617100,"~/.config/i3/config"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  33  0  ~/.config/polybar/launch
+|4,39,33,0,1576615780,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch
+|4,39,1,0,1576615777,"~/.config/polybar/launch"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1576615762,"~/.config/polybar/launch.sh"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  5  13  ~/.config/polybar/config
+|4,39,5,13,1576615580,"~/.config/polybar/config"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
+-'  79  0  ~/.local/share/xorg/Xorg.0.log
+|4,39,79,0,1576615117,"~/.local/share/xorg/Xorg.0.log"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/polybar/config
+	*	1576617962	0
+	"	98	0
+	^	98	0
+	.	98	0
+	+	5	14
+	+	80	12
+	+	85	14
+	+	86	0
+	+	92	16
+	+	31	26
+	+	98	0
+
+> ~/.config/i3/config
+	*	1576617096	0
+	"	173	0
+	^	2	13
+	.	2	12
+	+	3	0
+	+	30	0
+	+	29	49
+	+	77	0
+	+	31	0
+	+	55	0
+	+	31	0
+	+	77	0
+	+	36	37
+	+	37	37
+	+	38	33
+	+	39	39
+	+	42	21
+	+	77	0
+	+	43	25
+	+	45	29
+	+	77	0
+	+	47	33
+	+	77	0
+	+	55	0
+	+	48	0
+	+	77	0
+	+	78	0
+	+	50	0
+	+	78	0
+	+	27	13
+	+	4	10
+	+	8	7
+	+	82	0
+	+	8	0
+	+	18	0
+	+	17	13
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	23	0
+	+	19	0
+	+	23	0
+	+	8	12
+	+	9	12
+	+	10	12
+	+	11	12
+	+	12	12
+	+	13	12
+	+	14	12
+	+	15	12
+	+	16	12
+	+	17	14
+	+	22	29
+	+	25	43
+	+	57	0
+	+	77	0
+	+	2	12
+
+> ~/.config/polybar/launch
+	*	1576615778	0
+	"	33	0
+
+> ~/.config/polybar/launch.sh
+	*	1576615760	0
+	"	1	0
+
+> ~/.local/share/xorg/Xorg.0.log
+	*	1576615098	0
+	"	79	0
+
+> ~/.xsession-errors
+	*	1576614572	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1576614528	0
+	"	1	0
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/.config/i3/config.nn
+	*	1576613858	0
+	"	1	0
+	.	62	71
+	+	62	71
+
+> ~/.config/dconf/user
+	*	1576253997	0
+	"	2	0
+	.	1	160
+	+	1	160
 
 > /workspace/codebase/core/profile
 	*	1576253854	0
@@ -411,64 +523,6 @@
 	+	8	0
 	+	10	0
 
-> ~/.config/i3/config
-	*	1576234417	0
-	"	75	0
-	.	77	0
-	+	3	0
-	+	30	0
-	+	29	49
-	+	77	0
-	+	31	0
-	+	55	0
-	+	31	0
-	+	77	0
-	+	36	37
-	+	37	37
-	+	38	33
-	+	39	39
-	+	42	21
-	+	77	0
-	+	43	25
-	+	45	29
-	+	77	0
-	+	47	33
-	+	77	0
-	+	55	0
-	+	48	0
-	+	77	0
-	+	78	0
-	+	50	0
-	+	78	0
-	+	27	13
-	+	4	10
-	+	8	7
-	+	82	0
-	+	8	0
-	+	18	0
-	+	17	13
-	+	18	0
-	+	19	0
-	+	18	0
-	+	19	0
-	+	23	0
-	+	19	0
-	+	23	0
-	+	8	12
-	+	9	12
-	+	10	12
-	+	11	12
-	+	12	12
-	+	13	12
-	+	14	12
-	+	15	12
-	+	16	12
-	+	17	14
-	+	22	29
-	+	25	43
-	+	57	0
-	+	77	0
-
 > ~/Downloads/dotfiles-manjaro/.i3/config
 	*	1576233258	0
 	"	57	0
@@ -520,13 +574,6 @@
 	^	84	16
 	.	84	15
 	+	84	15
-
-> ~/.xinitrc
-	*	1576078783	0
-	"	1	0
-	^	1	7
-	.	1	6
-	+	1	6
 
 > ~/.config/termite/config
 	*	1576077682	0

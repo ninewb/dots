@@ -1,500 +1,500 @@
-sudo wifi-menu
-ifconfig
-ps -ef | grep tint
-cd .config/tint2/unleashed/unleashed-statusbar.tint2rc 
-vi .config/tint2/unleashed/unleashed-statusbar.tint2rc 
-cd .config/
+cd ~
 ls
-cd tint2
-ls
-cd uncreative/
-ls
-vim uncreative.tint2rc 
-cd ../repentance/
-ls
-vim repentance.tint2rc 
-ps -ef | grep tint
-killall tint2
-ps -ef | grep tint
-tint2 -c /home/ninewb/.config/tint2/repentance/repentance.tint2rc &
-ls
-cp repentance.tint2rc repentance.tint2rc.orig
-vim repentance.tint2rc
-killall tint2
-tint2 -c /home/ninewb/.config/tint2/repentance/repentance.tint2rc &
-k
+cd .config
+cd polybar/
 cd ..
-ls
-vi leve
-cd leve
-ls
-vi leve-cyan.tint2rc 
-conky
 ls
 cd ..
 ls
-cp -rp ~/Downloads/Tint2-Collections-master/* .
+pwd
+ls
+ls -l
+ls -a
 ll
 ls -l
-ll -ltr
-ls -ltr
-cd Stolen\ from\ m4he/
+vi .gitignore
+vim .gitignore
+ls
+ls -a
+git init
+git commit
+git add
+git add --all
+git commit
+git add
+git add *
+git commit -m https://github.com/ninewb/dots
+git remote add origin dots
+git push
+git push origin master
+git push origin master
+git remote add origin https://github.com/ninewb/dots.git
+ls
+ls -a
+cp -rp /home/ninewb/ /workspace/save
+ls /workspace/save/
+ls -a /workspace/save
+ls
+git pull
+git init
+git add README.md
+ls
+pwd
+git commit -m "first commit"
+git add *
+git commit -m new
+git push
+git push --set-uptream origin master
+git push --set-upstream origin master
+ls
+cd /workspace/
+ls
+cp -rp dotx dots
+ls
+cd dots
+ls
 cd ..
-mv "Stolen from m4he" stolen
-cd stolen/
 ls
-unzip kuronyx_for_tint2_panel_by_m4he-dbq4p4l.zip 
+cp -rp save dots
+cd dots
 ls
-rm -rf kuronyx_for_tint2_panel_by_m4he-dbq4p4l.zip 
+cd ..
+ls
+rm -rf dots
+cp -rp save dots
+cd dots
+ls
+ls -a
+ls
+cd ..
+ls
 ll
 ls -l
-kilall tint2
-killall tint2
-tint2 -c kuronyx-accented-blue.tint2rc 
-tint2 -c ~/.config/tint2/stolen/kuronyx-accented-blue.tint2rc 
 ls
-cd icons/
-ls
-cd ..
-ls
-cd ..
-ls
-mv stolen/icons .
+mv dots dots-orig
+git clone https://github.com/ninewb/dots.git
 ll
 ls -l
-cd icons/
+cp dots-orig/* /dots/.
+cp -rp dots-orig/* dots/.
+cd dots-orig/
+ls
+ls -a
+cp .* ../dots/.
+cp -rp .* ../dots/.
 ls
 cd ..
 ls
-tint2 -c ~/.config/tint2/stolen/kuronyx-accented-blue.tint2rc 
-sudo pacman -S Imlib2
-sudo pacman -S imlib2
-killall tint2
-tint2 -c ~/.config/tint2/stolen/kuronyx-accented-blue.tint2rc 
-tint2 -c /home/ninewb/.config/tint2/repentance/repentance.tint2rc &
-sudo pacman -S polybar
-sudo pacman -S addy
+cd dots
 ls
-ps -ef | grep tint2
-cp -rp repentance meraxes
-cd meraxes/
+pwd
+ll
+ls -a
+pwd
 ls
-rm -rf repentance.tint2rc.orig 
+ls /workspace/
 ls
-mv repentance.tint2rc meraxes.tint2rc
-iv meraxes.tint2rc 
-vim meraxes.tint2rc 
-sudo pacman
-sudo pacman -h
-sudo pacman -R lightdm lightdm-gtk-greeter openbox obconf xterm
-sudo pacman -R conky menumaker
-reboot
+rm -rf notes noteshade/ save/ dotx/ codebase/
+ll
+ls -l
+rm -rf dots
+ls -a
+git add *
+git commit -m first
+git push 
+pwd
+git push --set-upstream origin master
 ls
+cd ..
+ls
+rm -rf dots
+ll
+ls
+git clone https://github.com/ninewb/dots.git
+ls
+cd dots
+ls
+touch README.md
+git add README.md 
+git commit -m readme
+git push
+ls
+cp -rp ../save/.* .
+ls
+rm -rf codebase/ dots dots-orig/ dotx notes noteshade/
+ll
+ls -a
+git add *
+git commit -m new
+ls
+ls -a
+vi .gitignore 
+git add --all
+git commit -m new
+touch .test
+git add *
+git commit -m test
+ls
+cd ~
+ls
+ls
+ls -a
+git init --bare $HOME/.dotfiles
+vi .bash_profile
+vim .bash_profile
+. ~/.bash_profile
+dotfiles config --local status.showUntrackedFiles no
+dotfiles status
+ls
+ls -a
+rm -rf .dotfiles
+git clone --bare https://github.com/ninewb/dots.git $HOME/.dots
+ls
+cd .dots
+ls
+pwd
+cd ..
+ls
+vi .bash_profile 
+vim .bash_profile 
+. ~/.bash_profile
+dots checkout
+ls
+ls -a
+dots push
+dots add *
+dots commit -m new
+dots config --local status.showUntrackedFiles no
+dots commit -m new
+dots add *
+dots commit -m new
+ls
+vi .gitignore 
+git rm --cached
+ls
+dots git add --all
+dots add --all
+git rm --cached .config/tint2
+dots add --all
+dots commit -m new
+git push
+git push --set-upstream origin master
+git push https://github.com/ninewb/dots.git
+dots git pull
+dots pull
+git push https://github.com/ninewb/dots.git
+git remote set-url origin  https://github.com/ninewb/dots.git
+clear
+git push https://github.com/ninewb/dots.git
+git push
+git push --set-upstream origin master
+dots push https://github.com/ninewb/dots.git
+ls
+ls
+ls -a
+vi .gitignore 
+dots add --all
+dots commit -m changes
+dots push
+dots push https://github.com/ninewb/dots.git
+dots rm --cached .dots
+dots rm -r --cached .dots
+dots rm -r --cached .mozilla
+dots add --all
+dots commit -m new
+dots push
+dots push https://github.com/ninewb/dots.git
+ls
+ls -a
+vi .gitconfig 
+vi .gitignore
+dots add --all
+dots commit -m cleanup
+dots push
+dotsremote set-url origin  https://github.com/ninewb/dots.git
+clear
+dots remote set-url origin https://github.com/ninewb/dots.git
+dots push
+dots push --set-upsteam origin master
+dots push --set-upstream origin master
+dots rm -r --cached /.local
+dots rm -r --cached .local
+dots rm -r --cached .themes
+dots rm -r --cached .thumbnails
+dots add --all
+dots commit -m cleanup
+dots push
+dots pull
+ls
+ls -a
+cd .git
+ls
+cd ..
+ls
+ls
+ls
+ls -a
 alias
 ls
 cd /workspace/
 ls
-cd codebase
-git pull
-cd .
-cd ..
+cd dotx
 ls
-cd codebase
+cd dost
 ls
-ifocnfig
-ifconfig
-ip link
-ip link set eno1 up
-sudo ip link set eno1 up
-ifconfig
-ping google.com
-sudo auto eth0
-cd /etc/sysconfig
-cd /etc
-ls
-cd systemd
-ls
-cd network
-ls
-cd ..
-ls
-vi networkd.conf
-ls
-ifconfig
-ping google.com
-git 
-git pull
-cd /workspace/codebase/
-git pull
-sudo systemctl start dhcpcd
-ping google.com
-restart
-ifconfig
-sudo systemctl start dhcpcd
-sudo ip link
-sudo ip link set eno1 up
-ifconfig
-ping google.com
-cd /workspace/
-ls
-cd codebase/
-git pull
-cd ..
-ls
-cd ~
+cd dots
 ls
 ls -a
-vi .gitconfig
-vim .gitconfig
-vim .gitcreds
-ls
+vi .profile 
 cd ..
-ls
-cd /workspace/
-ls
-git clone https://github.com/ninewb/noteshade.git
-git clone https://github.com/ninewb/notes.git
-ls
-neofetch
-cd codebase/
-git pull
-ls
-cd core
-ls
-vi git.sh
-sudo pacman -S mutter gnome gnome-extra
-startx
-sudo pacman -R awesome
-sudo pacman -S gnome-tweaks
-gnome-session
-xinit -- :1
-sudo pacman -S gdm
-startx
-sudo shutdown -r now
-sudo pacman -S NetworkManager
-sudo pacman -S netmanager
-sudo pacman -S nm
-sudo pacman -S network-manager
-sudo pacman -S networkmanager
-cd /workspace/
-ls
-shutdown -r now
-startx
-vi /home/ninewb/.xinitrc 
-startx
-exut
-exit
-exit
-noefetch
-neofetch
-vim ~/.bash_profile 
-exit
-sudo pacman -S polybar-git
-sudo pacman -S polybar
-ifconfig
-ls
-cd Downloads/
-ls
-git clone https://aur.archlinux.org/ploybar.git
-ls
-rm ploybar
-rm -rf ploybar
-git clone https://aur.archlinux.org/polybar.git
-ls
-cd polybar/
-ls
-vi polybar.install 
-cd PKGBUILD 
-ls
-ll
-ls -l
-vi ~/.bash_profile
-cat /workspace/codebase/core/profile | head -10
-ls
-sudo pacman -S arcolinux-polybar-git
-exit
-. /workspace/codebase/core/profile 
-ls
-ll
-ls
-cd ~
-ls
-cd Downloads/
-ls
-cd polybar/
-ls
-cd polybar.install 
-ll
-chmod +x polybar.install 
-./polybar.install 
-ll
-cd PKGBUILD 
-vi PKGBUILD 
-vi polybar.install 
-vi PKGBUILD 
-cd ..
-ls
-rm -rf *.zip
-ls
-rm -rf polybar/
-rm -rf nicknewbill.com/
-ls
-rm -rf minima.tint2rc 
-rm -rf *.obt
-ls
-rm -rf Nightmare/
-ls
-git clone https://github.com/Airblader/dotfiles-manjaro.git
 ls
 cd dotfiles-manjaro/
 ls
-vi SETUP 
-ls
-cd bin
-ls
-cd ..
-ls
-cd scripts/
-ls
-cd ..
-ls
-cd setup/
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd Downloads/
-ls
-ll
-cd dotfiles-manjaro/
-ls
+ls 0a
 ls -a
-vi .xinitrc 
-vi .gitignore 
-cd .i3
-ls
-ll
-vi config
-diff
-sudo pacman -S diff
-sudo pacman -S Font-Awesome
-sudo pacman -S font-awesome
-ls
-cd i3exit 
-ll
-vi i3exit 
-vi i3subscribe 
-ls ~/.config/i3/
-vi ~/.config/i3/config 
-vi config 
-mv ~/.config/i3/config ~/.config/i3/config.orig
-cp config ~/.config/i3/.
-cd ~/.config
-ls
-ifconfig
-ping google.com
-ping google.com
-sudo ip link set eno1 down
-sudo ip link set eno1 up
-ifconfig
-ifconfig
-ifconfig
-ifconfig
-ping google.com
-ls
-sudo shutdown -r now
-cd /workspace/codebase/core
-ls
-ll
-ls -l
-. /workspace/codebase/core/profile
-bash
-sudo pacman -R gnome gnome-extra
-sudo pacman -R gnome gnome-extra gnome-online-miners
-sudo pacman -R gdm
-sudo pacman -S i3
-sudo systemctl start dhcpcd
-sudo ip link
-sudo ip link set eno1 up
-ping google.com
-ifconfig
-ping google.com
-sudo pacman -S i3
-vi .xinitrc 
-startx
-startx
+vi .bash_profile 
+vi .bashrc
+pwd
+cd ~
+vi .bashrc
+vi .bash_profile
+vi /workspace/codebase/core/profile
+vi /workspace/codebase/core/profile
+vi /workspace/codebase/core/profile
+vi /workspace/codebase/core/profile
 exit
-nitrogen
-exit
+dotp
+dotp
+dotp
+dots pull
+ls
+ls
 cd .config
 ls
-vi config
-sudo pacman -S feh
-sudo pacman -S compton
-sudo pacman -S nm-applet
+pwd
+rm -rf openbox
+rm -rf tint2old
+rm -rf tint2
+ll
+rm -rf geany/
+rm -rf nautilus/
+rm -rf evolution/
+ll
+cd dcong
+cd dconf
 ls
+vi user 
+ls
+cd ..
+ls
+ll
+ls
+ll
+polybar mybar
+cd polybar
+ls
+vi config
+firefox
+firefox &
+exit
+startx
+reboot
+firefox
+exit
+ls
+cd ~
+ls
+rm -rf url
+firefox &
+ls
+ls
+wal -i ~/wallpaper.jpg 
+ls
+ls
+cd /workspace/
+ls
+cd dots
+ls
+cd ..
+ls
+cd dotx
+ls
+git clone https://github.com/IbrahimButt/direwolf-arch-rice.git
+ls
+cp -r direwolf-arch-rice/.config/ ~/
+cp -r direwolf-arch-rice/.Xresources ~/
+cd ~
+xrdb .Xresources 
+sudo yay -S otf-overpass
 cd .config
 ls
 cd i3
 ls
-ll
-vi config
-ll
-cp config.orig config
-vi config
-sudo pacman -S xss-lock
-ping googl.ecom
-ping google.com
-ifconfig
-sudo systemctl start dhcpcd
-sudo ip link set eno1 up
-ifconfig
-ping google.com
-sudo pacman -S xss-lock
-vi config
-sudo pacman -S pactl
-sudo pacman -S pulseaudio
-vi conf
-vi config
-startx
-shutdown
-sudo shutdown now
-exec --no-startup-id rofi -show run
-rofi -show run
-sudo pacman -S install ttf-font-awesome
-sudo pacman -S ttf-font-awesome
-sudo systemctl start dhcpdu
-history
-sudo systemctl start dhcpcd
-sudo ip link set eno1 up
-sudo pacman -S ttf-font-awesome
-sudo pacman -S ttf-font-awesome-12
-sudo pacman -S ttf-font-awesome12
-startx
+cd ..
 ls
-cd Downloads/
-ls
-cd dotfiles-manjaro/
-ls
+cd ..
 ls -a
-vi .config/
-cd .config/
+cd .config
 ls
-cd ..
-ls
-cd .i3/
-ls
-vi config 
-vim config
-startx
-ls
-vim config
-ls
-cd .
-ls
-cd ..
-ls
-rm -rf gnome*
 ll
-ls -l
-exit
-exit
-neofetch
+cd i3
+ls
+cp /workspace/dotx/direwolf-arch-rice/.config/i3/config .
+ll
+vi config
+grep -rn $mod config.nn
+vi config.nn
+vi config
+sudo pacman -S w3m
+polybar bar
+xrandr
+sudo pacman -S xrandr
+sudo pacman -S xorg-xrandr
+xrandr
+ls
+cd ..
+ls
+cd polybar/
 ls
 vi config
+polybar bar
+polybar bar &
 exit
-cd .config/i3
+sudo pacman -S rxvt-unicode dmenu vim
+xrandr
+sudo pacman -S ranger
+cd ~
+mkdir -p /tmp/yay_install
+cd /tmp/yay_install/
+sudo pacman
+sudo pacman -h
+sudo pacman -S base-devel
+sudo pacman -S yajl
+sudo pacman -S git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+ls
+makepkg -si
+python -V
+cd ~
+rm -r /tmp/yay_install/
+sudo pacman -S feh imagemagick python-pip python-pywal
+pacman -S firefox
+sudo pacman -S firefox
+cd .config
+ls
+cd i3
+ls
+vi config
+ls
+ll
+cat config.nn
+vi config.nn
 ls
 cp config.nn config
 startx
-cd ~
-ls -a
 ls
-rm -rf Pictures/
-rm -rf Music/
+cd config
 ls
-ls Videos/
-ls Public/
-ls Templates/
-rm -rf Videos/ Public/ Templates/
-ll
-ls -l
-ls Documents/
-ls Desktop/
-rm -rf Desktop/ Documents/
 ls
-ls Downloads/
-ls /
-sudo mkdir /workspace/dotex
-mkdir /workspace/dotx
-ls
-rm -rf Downloads/Tint2-Collections-master/
-cp -rp dot* /workspace/dotx/.
-cp -rp Downloads/dot* /workspace/dotx/.
-rm -rf Downloads/
-ll
-ls -l
-ls -la
-rm -rf .xsession-errors.old
+pwd
+vi config
+reboot
+startx
 ls
 ls -a
-ls -la
-.local
+vi .xinitrc
 ls
-cd .local
+ls -a
+vi .xsession-errors 
+sudo pacman -R tint2
+startx
+sudo xrandr
+sudo xrandr --output eDP-1 --mode 2560x1440 --rate 59.95
+vi /home/ninewb/.local/share/xorg/Xorg.0.log
+lspci | grep -e VGA -e 3D
+pacman -Ss xf86-video
+Xorg
+pacman -S xorg-drivers
+sudo pacman -S xorg-drivers
+sudo pacman -S xf86-video-intel
+Xorg
+vi /home/ninewb/.local/share/xorg/Xorg.0.log
+sudo Xorg
+startx
+xrandr --output eDP1 --mode 2560x1440 --rate 59.95
+xrandr
+exit
+startx
 ls
-cd share
+ls -a
+cd i3
+ls
+cd .config
+ls
+polybar bar &
+xrandr
+ls
+cd i3
 ls
 cd ..
 ls
-exit
-cd ..
-ls
-vi .bashrc
-cd /workspace/
-ls
-cd codebase/
-ls
-cd core
-ls
-vi profile
-vim profile
-cd ~
-ls
-cd .bashrc
-vi .bashrc
-exit
-ls
-cat .bash_profile
-cat ~/.bash_profile
-exit
+cd polybar/
+vi config
+polybar bar &
 ls
 ll
-la
-vi exit
-exit
-la
-cd ~
+vi launch.sh
+vi launch
+cd testing/
 ls
-la
+cd cpu
 ls
-dots push
+cd ..
 ls
-pwd
-exit
-dotp
+noefetch
+neofetch
+sudo pacman -S update
+sudo pacman -h
+sudo pacman -U
+sudo pacman -SUs
+sudo pacman -Syy
+sudo pacman -Su
+firefox &
+sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image
+sudo pacman -S xcb-util-wm xcb-util-xrm jsoncpp
+sudo yay -S polybar-git
+yay -S polybar-git
+polybar bar &
+ps -ef | grep polybar
+kill -9 12944
 ls
-cd ~
-dotp
-dot add -all
-dots add -all
-dots add --all
-dots commit -m test
-pwd
-dots push
-dotp
-alias
-exit
+cd .config
+ls
+cd ..
+ls
+cd i3
+ls
+vi config
+cd ..
+cd polybar/
+ls
+vi config
+ps -ef|grep poly
+kill -9 563
+polybar bar
+vi config
+ps -ef|grep poly
+polybar bar
+vi config
+polybar bar
+sudo pacman -S bluez
+sudo pacman -S bluez-utils
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+bluetoothctl
+sudo vi /etc/bluetooth/main.conf 
+sudo vi /etc/bluetooth/main.conf 
+sudo vim /etc/bluetooth/main.conf
+sudo vim /etc/bluetooth/main.conf
+reboot
