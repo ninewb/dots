@@ -1,34 +1,53 @@
-[bar/bar]
+[global/wm]
+  margin-top = 0
+  margin-bottom = 0
 
-font-0 = "Overpass Mono:pixelsize=10;2.25"
+[settings]
+  throttle-output = 5
+  throttle-output-for = 10
+  throttle-input-for = 30
 
-monitor = "eDP1"
+[colors]
+  border = #0B1218
+  foreground = ${xrdb:foreground}
+  background = ${xrdb:background}
 
-scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
+  black = ${xrdb:color0}
+  green = ${xrdb:color2}
+  red = ${xrdb:color1}
+  blue = ${xrdb:color4}
+  
 
-fixed-center = true
+[bar/base]
+  monitor = "eDP1"
 
-width = 100%
-height = 30
+  fixed-center = true
+  override-redirect = true
+  #wm-restach = i3
 
-background = #1d1f21
-foreground = #707880
+  dpi-x = 0
+  dpi-y = 0
+  offset-y = 5
+  width = 80%
+  height = 30
 
-radius = 0.0
+  background = ${colors.background}
+  foreground = ${colors.foreground}
 
-# line-size = 1
-# line-color = #f00
+  border-size = 3
+  border-color = ${colors.green}
 
-# border-size = 2
-# border-color = #00ff00
-padding-left = 1
-padding-right = 1
-module-margin = 0
+  line-size = 0
+  line-color = #BE06C6
 
-modules-left = i3 
-modules-center = date
-modules-right = cpu battery
+  padding-left = 0
+  padding-right = 0
+
+  module-margin-left = 0
+  module-margin-right = 0
+
+  font-0 = "Operator Mono:size = 13:weight=medium;3"
+  font-1 = "Font Awesome 5 Free:size=13:weight=bold;4"
 
 [module/i3]
 strip-wsnumbers = true
@@ -53,46 +72,11 @@ label-urgent-foreground = #000000
 label-urgent-background = #bd2c40
 label-urgent-padding = 1
 
-[module/date]
-type = internal/date
-interval = 1.0
-date = %A, %d %B %I:%M %p
+[bar/top]
+  inherit = bar/base
+  bottom = false
+  offset-x = 10%
 
-# [module/github]
-# type = internal/github
-
-# ; Accessing an access token stored in file
-# token = ${file:/path/to/file/containing/github/access.token}
-
-# ; Accessing an access token stored in an environment variable
-# token = ${env:GITHUB_ACCESS_TOKEN}
-
-# ; Whether empty notifications should be displayed or not
-# empty-notifications = false
-
-[module/title]
-type = internal/xwindow
-# format-background = #f00
-format-foreground = #f0c674
-format-padding = 1
-label-maxlen = 50
-
-[module/cpu]
-type = internal/cpu
-
-; Seconds to sleep between updates
-; Default: 1
-interval = 0.5
-
-[module/battery]
-type = internal/battery
-full-at = 99
-battery = BAT0
-adapter = ADP1
-poll-interval = 5
-format-charging = <animation-charging> <label-charging>
-format-discharging = <ramp-capacity> <label-discharging>
-format-full = <ramp-capacity> <label-full>
-label-charging = Charging %percentage%%
-label-discharging = Discharging %percentage%%
-
+  modules-left = 
+  modules-center = i3
+  modeules-right =

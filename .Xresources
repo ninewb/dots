@@ -1,4 +1,4 @@
-*.font: xft:Overpass Mono:size=10
+#include ".colors/color"
 
 Xft.dpi:                        96
 Xft.antialias:                  1

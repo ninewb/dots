@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # Set display resolution
-exec_always --no-startup-id xrandr --output DP1-8 --mode 2560x1440 --rate 59.95
+#exec_always --no-startup-id xrandr --output DP1-8 --mode 2560x1440 --rate 59.95
 
 font pango:Overpass Regular 8
 
@@ -19,24 +19,12 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
 
 # Change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# Alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # Move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# Alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -154,10 +142,6 @@ exec_always --no-startup-id xrdb ~/.Xresources
 
 # Apply the last colorscheme generated without changing the background by using -n 
 exec_always --no-startup-id wal -R -n
-
-# Apply a background different than the one used by wal
-# If this isn't needed, remove it and remove -n flag from the above command
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wal/bg1.jpg
 
 # Execute polybar on launch. Script kills current ones on i3 refresh, otherwise they duplicate
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

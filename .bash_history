@@ -1,138 +1,3 @@
-cd ~
-ls
-cd .config
-cd polybar/
-cd ..
-ls
-cd ..
-ls
-pwd
-ls
-ls -l
-ls -a
-ll
-ls -l
-vi .gitignore
-vim .gitignore
-ls
-ls -a
-git init
-git commit
-git add
-git add --all
-git commit
-git add
-git add *
-git commit -m https://github.com/ninewb/dots
-git remote add origin dots
-git push
-git push origin master
-git push origin master
-git remote add origin https://github.com/ninewb/dots.git
-ls
-ls -a
-cp -rp /home/ninewb/ /workspace/save
-ls /workspace/save/
-ls -a /workspace/save
-ls
-git pull
-git init
-git add README.md
-ls
-pwd
-git commit -m "first commit"
-git add *
-git commit -m new
-git push
-git push --set-uptream origin master
-git push --set-upstream origin master
-ls
-cd /workspace/
-ls
-cp -rp dotx dots
-ls
-cd dots
-ls
-cd ..
-ls
-cp -rp save dots
-cd dots
-ls
-cd ..
-ls
-rm -rf dots
-cp -rp save dots
-cd dots
-ls
-ls -a
-ls
-cd ..
-ls
-ll
-ls -l
-ls
-mv dots dots-orig
-git clone https://github.com/ninewb/dots.git
-ll
-ls -l
-cp dots-orig/* /dots/.
-cp -rp dots-orig/* dots/.
-cd dots-orig/
-ls
-ls -a
-cp .* ../dots/.
-cp -rp .* ../dots/.
-ls
-cd ..
-ls
-cd dots
-ls
-pwd
-ll
-ls -a
-pwd
-ls
-ls /workspace/
-ls
-rm -rf notes noteshade/ save/ dotx/ codebase/
-ll
-ls -l
-rm -rf dots
-ls -a
-git add *
-git commit -m first
-git push 
-pwd
-git push --set-upstream origin master
-ls
-cd ..
-ls
-rm -rf dots
-ll
-ls
-git clone https://github.com/ninewb/dots.git
-ls
-cd dots
-ls
-touch README.md
-git add README.md 
-git commit -m readme
-git push
-ls
-cp -rp ../save/.* .
-ls
-rm -rf codebase/ dots dots-orig/ dotx notes noteshade/
-ll
-ls -a
-git add *
-git commit -m new
-ls
-ls -a
-vi .gitignore 
-git add --all
-git commit -m new
-touch .test
-git add *
 git commit -m test
 ls
 cd ~
@@ -498,3 +363,138 @@ sudo vi /etc/bluetooth/main.conf
 sudo vim /etc/bluetooth/main.conf
 sudo vim /etc/bluetooth/main.conf
 reboot
+exit
+bluetoothctl
+alias
+dotp
+dotp
+dotp
+ls
+ls
+ll
+rm -rf wallpaper.jpg 
+ll
+ls -a
+git add *
+git commit -m new
+git push
+git push --set-upstream origin master
+git pull
+alias
+dots
+dots pull
+dots add *
+dots commit -m new
+dots push
+dots pull
+dots push
+ls
+ls -a
+ls
+cd .config
+ls
+cd i3
+ls
+vi config
+startx
+feh
+ls
+ll
+ls -a
+la
+vi .Xauthority 
+cd .config
+ls
+cd polybar
+ls
+vi config
+vi config
+vi config
+vi config
+ls
+cd ..
+ls
+ls
+cd ..
+la
+mkdir .art
+cd .art
+vi color
+ls
+cd ..
+ls
+ls
+vi .Xresources 
+cd .config
+ls
+cd polybar/
+ls
+vi config
+ps -ef | grep polybar
+vi config
+cd ..
+ls
+cd .
+cd ..
+cd .art
+vi color
+cd ..
+ls
+cd .config
+ls
+cd polybar
+ls
+vi config
+vi config
+vi config
+vi config
+vi config
+vi config
+vi config
+vi config
+polybar top
+polybar top
+ps -ef | grep poly
+kill -9 1655
+ps -ef | grep poly
+polybar top
+ls
+vi config
+cd ..
+ls
+cd .art
+ls
+cd ..
+cd .art
+ls
+vi color
+cd ..
+ls
+cd ..
+ls
+cd .config
+ls
+la
+cd ninewb/
+cd .config
+ls
+cd polybar/
+ls
+vi config
+polybar top
+cd ..
+iv
+vi
+cd ..
+ls
+cd .art
+ls
+vi color
+sudo reboot
+ls
+exit
+ls
+la
+vi README.md 
+polybar top
+exit
