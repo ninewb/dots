@@ -11,6 +11,8 @@
 /.mozilla
 /.thumbnails
 
+.bash_history
 .gitcreds
+.gitignore
 .viminfo
-
+.xsession-errors
