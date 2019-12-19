@@ -56,9 +56,9 @@
   inherit = bar/base
   bottom = false
   offset-x = 10%
-  modules-left = wifi
+  modules-left = wifi backlight
   modules-center = i3
-  modules-right = 
+  modules-right = battery 
 
 [bar/bottom]
 
@@ -88,58 +88,58 @@
   label-urgent-background = ${colors.background}
   label-urgent-padding = 1
 
-ws-icon-0 = 1;
-		ws-icon-1 = 2;
-		ws-icon-2 = 3;
-		ws-icon-3 = 4;
-		ws-icon-4 = 5;
-		ws-icon-5 = 6;
+  ws-icon-0 = 1;
+  ws-icon-1 = 2;
+  ws-icon-2 = 3;
+  ws-icon-3 = 4;
+  ws-icon-4 = 5;
+  ws-icon-5 = 6;
 
 
-	[module/title]
-		type = internal/xwindow
+[module/title]
+  type = internal/xwindow
 
-		format = <label>
-		format-prefix = 
-		format-prefix-padding-left = 3
-		format-foreground = ${colors.background}
-		format-background = ${colors.foreground}
+  format = <label>
+  format-prefix = 
+  format-prefix-padding-left = 3
+  format-foreground = ${colors.background}
+  format-background = ${colors.foreground}
 
-		label = %title%
-		label-maxlen = 50
-		label-padding-left = 2
-		label-padding-right = 3
+  label = %title%
+  label-maxlen = 50
+  label-padding-left = 2
+  label-padding-right = 3
 
-		label-empty = Empty
-		label-empty-foreground = ${colors.background}
-		label-empty-background = ${colors.foreground}
-		label-empty-padding-left = 2
-		label-empty-padding-right = 3
+  label-empty = Empty
+  label-empty-foreground = ${colors.background}
+  label-empty-background = ${colors.foreground}
+  label-empty-padding-left = 2
+  label-empty-padding-right = 3
 
-	[module/cpu]
-		type = internal/cpu
-		interval = 1
+[module/cpu]
+  type = internal/cpu
+  interval = 1
 
-		format = <label>
-		format-prefix = 
-		format-prefix-padding-left = 3
-		format-prefix-foreground = ${colors.magenta}
-		format-prefix-background = ${colors.background}
+  format = <label>
+  format-prefix = 
+  format-prefix-padding-left = 3
+  format-prefix-foreground = ${colors.magenta}
+  format-prefix-background = ${colors.background}
 
-		label = %percentage%%
-		label-foreground = ${colors.magenta}
-		label-background = ${colors.background}
-		label-padding-left = 2
-		label-padding-right = 3
+  label = %percentage%%
+  label-foreground = ${colors.magenta}
+  label-background = ${colors.background}
+  label-padding-left = 2
+  label-padding-right = 3
 
-	[module/ram]
-		type = internal/memory
-		interval = 1
+[module/ram]
+  type = internal/memory
+  interval = 1
 
-		format = <label>
-		format-prefix = 
-		format-prefix-padding-left = 3
-		format-prefix-foreground = ${colors.yellow}
+  format = <label>
+  format-prefix = 
+  format-prefix-padding-left = 3
+  format-prefix-foreground = ${colors.yellow}
 		format-prefix-background = ${colors.background}
 
 		label = %percentage_used%%
