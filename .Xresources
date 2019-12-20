@@ -8,16 +8,25 @@ Xft.hintstyle:                  hintslight
 Xft.lcdfilter:                  lcdlight
 Xft.rgba:                       rgb
 
-URxvt*termName:                 rxvt-256color
-URxvt.depth:                    32
-URxvt*lineSpace:                1
-URxvt.letterSpace:              -1
+URxvt.font:                     xft:Iosevka:style=Regular:size=8 
+URxvt.boldFont:                 xft:Iosevka:style=Bold:size=8
+URxvt.italicFont:               xft:Iosevka:style=Italic:size=8
+URxvt.boldItalicfont:           xft:Iosevka:style=Bold Italic:size=8
+URxvt.depth:                    24
+URxvt.lineSpace:                0
+URxvt.letterSpace:              0
 URxvt.iso14755:                 false
 URxvt.iso14755_52:              false
-URxvt*geometry:                 65x17
+URxvt.geometry:                 92x24
+URxvt.saveline:                 2048
+URxvt.cursorBlink:              true
+URxvt.cursorUnderline:          false
 URxvt.scrollBar:                false
-URxvt*loginShell:               true
-URxvt.internalBorder:           25
+URxvt.scrollBar_right:          false
+URxvt.loginShell:               true
+URxvt.internalBorder:           24
 URxvt.perl-ext:	 		default,matcher
 URxvt.url-launcher:             firefox
 URxvt.matcher.button: 		1
+
+
