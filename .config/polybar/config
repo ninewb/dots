@@ -30,14 +30,14 @@
 
   dpi-x = 0
   dpi-y = 0
-  offset-y = 5
-  width = 80%
-  height = 30
+  offset-y = 0
+  width = 100%
+  height = 25
 
   background = ${colors.background}
   foreground = ${colors.foreground}
 
-  border-size = 1
+  border-size = 0
   border-color = ${colors.cyan}
 
   line-size = 0
@@ -49,16 +49,16 @@
   module-margin-left = 0
   module-margin-right = 0
 
-  font-0 = "Operator Mono:size = 13:weight=medium;3"
-  font-1 = "Font Awesome 5 Free:size=13:weight=bold;4"
+  font-0 = "Iosevka:size=10:weight=medium;3"
+  font-1 = "Font Awesome 5 Free:size=10:weight=bold;3"
 
 [bar/top]
   inherit = bar/base
   bottom = false
-  offset-x = 10%
-  modules-left = wifi backlight
-  modules-center = i3
-  modules-right = battery date 
+  #offset-x = 10%
+  modules-left = i3
+  modules-center = 
+  modules-right = battery wifi date 
 
 [bar/bottom]
   inherit = bar/base
@@ -82,7 +82,7 @@
   label-focused-padding = 1
 
   label-unfocused = %index%
-  label-unfocused-foreground = ${colors.black}
+  label-unfocused-foreground = ${colors.yellow}
   label-unfocused-background = ${colors.background}
   label-unfocused-padding = 1
 
@@ -94,12 +94,17 @@
   label-urgent-background = ${colors.background}
   label-urgent-padding = 1
 
-  ws-icon-0 = 1;
-  ws-icon-1 = 2;
-  ws-icon-2 = 3;
-  ws-icon-3 = 4;
-  ws-icon-4 = 5;
-  ws-icon-5 = 6;
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+
+#  ws-icon-0 = 1;
+#  ws-icon-1 = 2;
+#  ws-icon-2 = 3;
+#  ws-icon-3 = 4;
+#  ws-icon-4 = 5;
+#  ws-icon-5 = 6;
 
 
 [module/title]
@@ -145,7 +150,7 @@
   format = <label>
   format-prefix = 
   format-prefix-padding-left = 3
-  format-prefix-foreground = ${colors.yellow}
+  format-prefix-foreground = ${colors.foreground}
   format-prefix-background = ${colors.background}
 
   label = %percentage_used%%
@@ -238,7 +243,7 @@
 
   format-prefix = 
   format-prefix-padding-left = 3
-  format-foreground = ${colors.yellow}
+  format-foreground = ${colors.foreground}
   format-background = ${colors.background}
 
   label = %percentage%%
@@ -253,7 +258,7 @@
 
   format-charging-prefix = 
   format-charging-prefix-padding-left = 3
-  format-charging = <label-charging>
+  format-charging = <animation-charging> <label-charging>
   format-charging-foreground = ${colors.background}
   format-charging-background = ${colors.green}
   format-charging-underline = ${colors.background}
@@ -262,7 +267,7 @@
 
   format-discharging-prefix = 
   format-discharging-prefix-padding-left = 3
-  format-discharging = <label-discharging>
+  format-discharging = <ramp-capacity> <label-discharging>
   format-discharging-foreground = ${colors.background}
   format-discharging-background = ${colors.red}
   format-discharging-underline = ${colors.background}
@@ -286,8 +291,8 @@
 
   format-connected-prefix = 
   format-connected-prefix-padding-left = 3
-  format-connected-foreground = ${colors.background}
-  format-connected-background = ${colors.green}
+  format-connected-foreground = ${colors.foreground}
+  format-connected-background = ${colors.background}
   label-connected = %essid%
   label-connected-padding-left = 2
   label-connected-padding-right = 3
@@ -331,8 +336,8 @@
 
   format-prefix = 
   format-prefix-padding-left = 3
-  format-foreground = ${colors.background}
-  format-background = ${colors.magenta}
+  format-foreground = ${colors.red}
+  format-background = ${colors.background}
 
   label = %date% %time%
   label-padding-left = 2
