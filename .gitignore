@@ -10,6 +10,7 @@
 /.local/share
 /.mozilla
 /.thumbnails
+/.w3m
 
 .bash_history
 .gitcreds
