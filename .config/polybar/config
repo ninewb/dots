@@ -285,32 +285,31 @@ animation-charging-framerate = 750
 [module/wifi]
   type = internal/network
   interface = wlp2s0
-  ping-interval = 10
+  interval = 3.0
   unknown-as-up = true
 
-  format-connected-prefix = 
-  format-connected-prefix-padding-left = 3
-  format-connected-foreground = ${colors.foreground}
-  format-connected-background = ${colors.background}
-  label-connected = %essid%
-  label-connected-padding-left = 2
-  label-connected-padding-right = 3
+format-connected = <ramp-signal> <label-connected>
+; label-connected = %essid% %{F#66}%local_ip%
+label-connected = %essid%
+label-disconnected = %{F#666}%{F#ccfafafa} not connected
+label-disconnected-foreground = #66
 
-  format-packetloss-prefix = 
-  format-packetloss-prefix-padding-left = 3
-  format-packetloss-foreground = ${colors.background}
-  format-packetloss-background = ${colors.yellow}
-  label-packetloss = packetloss
-  label-packetloss-padding-left = 2
-  label-packetloss-padding-right = 3
 
-  format-disconnected-prefix = 
-  format-disconnected-prefix-padding-left = 3
-  format-disconnected-foreground = ${colors.background}
-  format-disconnected-background = ${colors.red}
-  label-disconnected = disconnected
-  label-disconnected-padding-left = 2
-  label-disconnected-padding-right = 3
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #666
+
+[module/wired]
+type = internal/network
+interface = net0
+interval = 3.0
+
+label-connected = %{T3}%local_ip%%{T-}
+label-disconnected = %{T3}Not connected%{T-}
+label-disconnected-foreground = #66
 
 [module/pacupdate]
   type = custom/script
@@ -328,16 +327,7 @@ animation-charging-framerate = 750
   label-padding-right = 3
 
 [module/date]
-  type = internal/date
-  interval = 5.0
-  time = %H:%M
-  date = %a %d %b
-
-  format-prefix = 
-  format-prefix-padding-left = 3
-  format-foreground = ${colors.red}
-  format-background = ${colors.background}
-
-  label = %date% %time%
-  label-padding-left = 2
-  label-padding-right = 3
+type = internal/date
+;date = %{T3}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#2278ff}%%{F#ee1d1d1d} %H:%M%%{T-}
+date = %%{F#2278ff}%%{F#ccfafafa} %H:%M
+interval = 5
