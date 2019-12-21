@@ -100,14 +100,6 @@ ws-icon-1 = 2;2
 ws-icon-2 = 3;3
 ws-icon-3 = 4;4
 
-#  ws-icon-0 = 1;
-#  ws-icon-1 = 2;
-#  ws-icon-2 = 3;
-#  ws-icon-3 = 4;
-#  ws-icon-4 = 5;
-#  ws-icon-5 = 6;
-
-
 [module/title]
   type = internal/xwindow
 
@@ -257,8 +249,6 @@ ws-icon-3 = 4;4
   adapter = AC
   full-at = 98
 
-  format-charging-prefix = 
-  format-charging-prefix-padding-left = 3
   format-charging = <animation-charging> <label-charging>
   format-charging-foreground = ${colors.background}
   format-charging-background = ${colors.green}
@@ -266,8 +256,6 @@ ws-icon-3 = 4;4
   label-charging-padding-left = 2
   label-charging-padding-right = 3
 
-  format-discharging-prefix = 
-  format-discharging-prefix-padding-left = 3
   format-discharging = <ramp-capacity> <label-discharging>
   format-discharging-foreground = ${colors.background}
   format-discharging-background = ${colors.red}
@@ -275,9 +263,7 @@ ws-icon-3 = 4;4
   label-discharging-padding-left = 2
   label-discharging-padding-right = 3
 
-  format-full-prefix = 
-  format-full-prefix-padding-left = 3
-  format-full = <label-full>
+  format-full = %{F#666}%{F#ccfafafa}  <label-full>
   format-full-foreground = ${colors.background}
   format-full-background = ${colors.green}
   format-full-underline = ${colors.background}
