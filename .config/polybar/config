@@ -283,6 +283,18 @@ ws-icon-3 = 4;4
   label-full-padding-left = 2
   label-full-padding-right = 3
 
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = #666
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = #666
+animation-charging-framerate = 750
+
 [module/wifi]
   type = internal/network
   interface = wlp2s0
