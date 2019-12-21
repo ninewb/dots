@@ -49,8 +49,9 @@
   module-margin-left = 0
   module-margin-right = 0
 
-  font-0 = "Iosevka:size=10:weight=medium;3"
-  font-1 = "Font Awesome 5 Free:size=10:weight=bold;3"
+  font-0 = hack:size=7;1
+  font-1 = Siji:pixelsize=10;0
+  font-2 = Termsynu:size=8;0
 
 [bar/top]
   inherit = bar/base
