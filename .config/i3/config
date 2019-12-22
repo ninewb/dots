@@ -9,6 +9,8 @@
 #     |__|::/       |__|::/  
 #     /__/:/        /__/:/   
 #     \__\/         \__\/    
+#
+# source: https://gituhub.com/ninewb
 
 # Set modifier key to alt
 set $mod Mod4

@@ -33,6 +33,8 @@
   offset-y = 0
   width = 100%
   height = 25
+  spacing = 1
+  lineheight = 2
 
   background = ${colors.background}
   foreground = ${colors.foreground}
@@ -43,14 +45,13 @@
   line-size = 0
   line-color = #BE06C6
 
-  padding-left = 0
-  padding-right = 0
+  padding-left = 1
+  padding-right = 4
+  module-margin-left = 1
+  module-margin-right = 2
 
-  module-margin-left = 0
-  module-margin-right = 0
-
-  font-0 = hack:size=7;1
-  font-1 = Siji:pixelsize=10;0
+  font-0 = hack:size=9;1
+  font-1 = Siji:pixelsize=15;2
   font-2 = Termsynu:size=8;0
 
 [bar/top]
@@ -250,26 +251,8 @@ ws-icon-3 = 4;4
   full-at = 98
 
   format-charging = <animation-charging> <label-charging>
-  format-charging-foreground = ${colors.background}
-  format-charging-background = ${colors.green}
-  format-charging-underline = ${colors.background}
-  label-charging-padding-left = 2
-  label-charging-padding-right = 3
-
   format-discharging = <ramp-capacity> <label-discharging>
-  format-discharging-foreground = ${colors.background}
-  format-discharging-background = ${colors.red}
-  format-discharging-underline = ${colors.background}
-  label-discharging-padding-left = 2
-  label-discharging-padding-right = 3
-
-  format-full = %{F#666}%{F#ccfafafa}  <label-full>
-  format-full-foreground = ${colors.background}
-  format-full-background = ${colors.green}
-  format-full-underline = ${colors.background}
-  label-full-padding-left = 2
-  label-full-padding-right = 3
-
+  format-full = ${colors:green}  ${colors:foreground} <label-full>
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -289,7 +272,6 @@ animation-charging-framerate = 750
   unknown-as-up = true
 
 format-connected = <ramp-signal> <label-connected>
-; label-connected = %essid% %{F#66}%local_ip%
 label-connected = %essid%
 label-disconnected = %{F#666}%{F#ccfafafa} not connected
 label-disconnected-foreground = #66
